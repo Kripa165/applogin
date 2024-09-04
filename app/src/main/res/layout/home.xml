@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover your skills"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Search for skills or instructors"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="#AAAAAA"
+        android:textColorHint="#AAAAAA"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trending Workshops"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Photography"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Cooking"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Art and design"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="    Yoga"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Instructors"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Peter Jill"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Donna Potter"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Nate Brown"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="John Chen"
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

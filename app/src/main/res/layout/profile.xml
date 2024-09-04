@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/username_input2"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:background="@drawable/rounded_corner"
+        android:inputType="text"
+        android:padding="18dp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circular_background"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sydney_sunset_cruise_stockcake"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jack Mill"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graphic Design"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="75%"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:max="100"
+        android:maxHeight="10dip"
+
+        android:minHeight="10dip"
+        android:progress="75"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photography"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60%"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:max="100"
+        android:maxHeight="10dip"
+
+        android:minHeight="10dip"
+        android:progress="60"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Development"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="80%"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:max="100"
+        android:maxHeight="10dip"
+
+        android:minHeight="10dip"
+        android:progress="80"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teaching History"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:background="@drawable/rounded_corner"
+        android:inputType="text"
+        android:padding="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduction to Graphic Design"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 students enrolled"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Art Class"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100 students enrolled"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
