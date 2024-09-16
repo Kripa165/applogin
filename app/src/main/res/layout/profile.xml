@@ -7,210 +7,206 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <EditText
-        android:id="@+id/username_input2"
-        android:layout_width="170dp"
-        android:layout_height="130dp"
-        android:background="@drawable/rounded_corner"
-        android:inputType="text"
-        android:padding="18dp"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="550dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/circular_background"
         android:clipToOutline="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/sydney_sunset_cruise_stockcake"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jack Mill"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="124dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:layout_marginTop="8dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewSkills"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Skills"
         android:textSize="32sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="179dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textViewName"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewGraphicDesign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Graphic Design"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="229dp" />
-
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textViewSkills"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewGraphicDesignProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="75%"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="259dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textViewGraphicDesign"
+        android:layout_marginTop="8dp"/>
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBarGraphicDesign"
         style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:max="100"
-        android:maxHeight="10dip"
-
-        android:minHeight="10dip"
         android:progress="75"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="294dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewGraphicDesignProgress"
+        android:layout_marginTop="8dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewPhotography"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Photography"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/progressBarGraphicDesign"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewPhotographyProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="60%"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="352dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textViewPhotography"
+        android:layout_marginTop="8dp"/>
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBarPhotography"
         style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:max="100"
-        android:maxHeight="10dip"
-
-        android:minHeight="10dip"
         android:progress="60"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="388dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewPhotographyProgress"
+        android:layout_marginTop="8dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewWebDevelopment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Web Development"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="412dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/progressBarPhotography"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewWebDevelopmentProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="80%"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="442dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textViewWebDevelopment"
+        android:layout_marginTop="8dp"/>
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBarWebDevelopment"
         style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:max="100"
-        android:maxHeight="10dip"
-
-        android:minHeight="10dip"
         android:progress="80"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="477dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewWebDevelopmentProgress"
+        android:layout_marginTop="8dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewTeachingHistory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Teaching History"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="502dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/progressBarWebDevelopment"
+        android:layout_marginTop="16dp"/>
 
     <EditText
         android:id="@+id/username_input"
         android:layout_width="170dp"
         android:layout_height="130dp"
         android:background="@drawable/rounded_corner"
+        android:hint="Enter username"
         android:inputType="text"
         android:padding="18dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="550dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTeachingHistory"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewCourse1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Introduction to Graphic Design"
         android:textSize="15sp"
         android:textStyle="normal"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="680dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/username_input"
+        android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewCourse1Details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="200 students enrolled"
         android:textSize="15sp"
         android:textStyle="normal"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="700dp" />
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textViewCourse1"
+        android:layout_marginTop="8dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewCourse2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Art Class"
         android:textSize="15sp"
         android:textStyle="normal"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="680dp" />
+        app:layout_constraintStart_toEndOf="@id/username_input"
+        app:layout_constraintTop_toBottomOf="@id/textViewTeachingHistory"
+        android:layout_marginStart="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewCourse2Details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100 students enrolled"
         android:textSize="15sp"
         android:textStyle="normal"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="700dp" />
-
+        app:layout_constraintStart_toStartOf="@id/textViewCourse2"
+        app:layout_constraintTop_toBottomOf="@id/textViewCourse2"
+        android:layout_marginTop="8dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

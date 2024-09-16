@@ -9,18 +9,20 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
         android:text="Discover your skills"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="42dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="400dp"
+        android:id="@+id/username_input_search"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:background="@drawable/rounded_corner"
         android:hint="Search for skills or instructors"
@@ -29,22 +31,25 @@
         android:textColor="#AAAAAA"
         android:textColorHint="#AAAAAA"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="102dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:layout_constraintHorizontal_bias="0.5" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="Trending Workshops"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_input_search" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextPhotography"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="Photography"
@@ -53,12 +58,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintEnd_toStartOf="@id/editTextCooking"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextCooking"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="Cooking"
@@ -67,12 +74,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintStart_toEndOf="@id/editTextPhotography"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintEnd_toStartOf="@id/editTextArtAndDesign"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextArtAndDesign"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="Art and design"
@@ -81,36 +90,40 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintStart_toEndOf="@id/editTextCooking"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintEnd_toStartOf="@id/editTextYoga"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextYoga"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
-        android:hint="    Yoga"
+        android:hint="Yoga"
         android:inputType="text"
         android:padding="18dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintStart_toEndOf="@id/editTextArtAndDesign"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Popular Instructors"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="425dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPhotography" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextPeterJill"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="Peter Jill"
@@ -119,12 +132,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toStartOf="@id/editTextDonnaPotter"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextDonnaPotter"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="Donna Potter"
@@ -133,12 +148,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintStart_toEndOf="@id/editTextPeterJill"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toStartOf="@id/editTextNateBrown"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextNateBrown"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="Nate Brown"
@@ -147,12 +164,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="576dp" />
+        app:layout_constraintStart_toEndOf="@id/editTextDonnaPotter"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toStartOf="@id/editTextJohnChen"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
-        android:id="@+id/username_input"
-        android:layout_width="170dp"
+        android:id="@+id/editTextJohnChen"
+        android:layout_width="0dp"
         android:layout_height="79dp"
         android:background="@drawable/rounded_corner"
         android:hint="John Chen"
@@ -161,8 +180,9 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="576dp" />
-
+        app:layout_constraintStart_toEndOf="@id/editTextNateBrown"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
